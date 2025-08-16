@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kondeti Anand Pal — Portfolio</title>
+  <meta name="description" content="Frontend Developer | Python Enthusiast | Portfolio of Kondeti Anand Pal" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#">Anand Pal</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+        <button id="themeToggle" aria-label="Toggle theme">🌓</button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero container">
+    <div class="hero-text">
+      <h1>Frontend Developer & Python Enthusiast</h1>
+      <p class="tagline">I build clean, accessible interfaces and automate workflows with code.</p>
+      <div class="cta">
+        <a class="btn primary" href="assets/Kondeti_Anand_Pal_Resume.pdf" target="_blank" rel="noopener">View Resume</a>
+        <a class="btn" href="https://github.com/Anandpal-123" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://linkedin.com/in/Anandpal" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="mailto:anandpalkondeti@gmail.com">Email Me</a>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="about" class="container section">
+      <h2>About Me</h2>
+      <p>
+        I'm <strong>Kondeti Anand Pal</strong>, a Computer Science undergraduate (2022–2026) from
+        VKR, VNB &amp; AGK College of Engineering (CGPA: 8.15), focused on frontend development and
+        clean UI. I enjoy turning ideas into usable products and automating repetitive tasks with
+        Python scripts and CI/CD.
+      </p>
+    </section>
+
+    <section id="skills" class="container section">
+      <h2>Skills</h2>
+      <div class="grid skills">
+        <div class="card">
+          <h3>Frontend</h3>
+          <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React (Basics)</li>
+            <li>Responsive Design, Accessibility</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Programming</h3>
+          <ul>
+            <li>Python, Java, C, C++, SQL</li>
+            <li>Numpy, Pandas</li>
+            <li>Problem Solving</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Tools & DB</h3>
+          <ul>
+            <li>GitHub, GitHub Actions</li>
+            <li>MySQL</li>
+            <li>MS Word, MS Excel</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="container section">
+      <h2>Projects</h2>
+      <div class="grid projects">
+        <article class="card project">
+          <div class="project-head">
+            <h3>Contact QR Code Generator</h3>
+            <img class="badge" src="https://github.com/Anandpal-123/qr-code-generator/actions/workflows/qr_code.yml/badge.svg" alt="Actions badge">
+          </div>
+          <p>
+            Automates QR code generation for contact details using Python (<code>qrcode</code>, <code>Pillow</code>)
+            and a GitHub Actions CI pipeline. Generates images for multiple contacts and uploads them as build artifacts.
+          </p>
+          <ul class="tags">
+            <li>Python</li><li>GitHub Actions</li><li>qrcode</li><li>Pillow</li>
+          </ul>
+          <div class="project-links">
+            <a class="btn" href="https://github.com/Anandpal-123/qr-code-generator" target="_blank" rel="noopener">Repo</a>
+          </div>
+          <details class="accordion">
+            <summary>Interview Notes</summary>
+            <div class="notes">
+<pre>
+🧾 QR Code Generator | GitHub Actions + Python
+Tech Stack: GitHub Actions · Python · YAML · qrcode · PIL
+Project Summary: Automated the generation of QR codes for contact information using Python and GitHub Actions. Designed a CI workflow to execute a Python script on code push, generate QR images for multiple contacts, and upload them as build artifacts.
+Key Contributions:
+- Developed a Python script to dynamically generate QR codes for multiple contacts with error handling.
+- Created a GitHub Actions workflow (qr_generator.yml) to automate: Repository checkout, Python environment setup, dependency installation, QR code generation and artifact upload.
+- Used wildcard patterns to dynamically upload multiple QR code images.
+- Enhanced workflow readability with emoji-based step naming for better visual tracking.
+Outcome: Streamlined QR code generation with zero manual intervention, enabling easy sharing and reuse of contact data in visual format.
+</pre>
+            </div>
+          </details>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="container section">
+      <h2>Experience & Certifications</h2>
+      <div class="timeline">
+        <div class="item">
+          <h3>Python Programming Intern — BIST Technologies Pvt. Ltd.</h3>
+          <p>Completed 120-hour training in core and advanced Python; hands-on with data structures.</p>
+        </div>
+        <div class="item">
+          <h3>Workshop — DevOps by Tech Logics</h3>
+        </div>
+        <div class="item">
+          <h3>Python Programming — BIST Technologies Pvt. Ltd. (Certification)</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2>Contact</h2>
+      <div class="contact-grid">
+        <a class="contact-card" href="mailto:anandpalkondeti@gmail.com">📧 anandpalkondeti@gmail.com</a>
+        <span class="contact-card">📍 Machilipatnam, Andhra Pradesh</span>
+        <a class="contact-card" href="tel:+918341938769">📱 +91 83419 38769</a>
+        <a class="contact-card" target="_blank" rel="noopener" href="https://linkedin.com/in/Anandpal">🔗 LinkedIn</a>
+        <a class="contact-card" target="_blank" rel="noopener" href="https://github.com/Anandpal-123">🐙 GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Kondeti Anand Pal. Built with HTML, CSS & JS.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
