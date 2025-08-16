@@ -10,10 +10,10 @@ This folder contains my **personal portfolio website** (HTML/CSS/JS) and a **pro
 - `PROFILE_README.md` — Markdown portfolio for GitHub profile
 
 ## 🌍 Deploy to GitHub Pages
-1. Create a new repository (e.g., `anandpal-portfolio`).
-2. Push these files to the repo root on the `main` branch.
+1. Create a new repository (`anandpal-portfolio`).
+2. Pushed the above contents to the repo root on the `main` branch.
 3. In **Settings → Pages**, choose **Deploy from a branch** and select `main` / `/ (root)`.
-4. Your site will be available at: `https://<your-username>.github.io/<repo>/`.
+4. My site details: `https://anandpal-123.github.io/anandpal-portfolio/`.
 
 ## 🔗 Featured Project
 **Contact QR Code Generator** — Automates QR code generation with Python and GitHub Actions.  

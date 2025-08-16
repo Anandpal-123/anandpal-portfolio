@@ -1,7 +1,7 @@
 # Hi, I'm Anand Pal 👋
 
 **Frontend Developer | Python Enthusiast | CSE (2022–2026)**  
-Machilipatnam, Andhra Pradesh · [LinkedIn](https://linkedin.com/in/Anandpal) · [GitHub](https://github.com/Anandpal-123) · [Email](mailto:anandpalkondeti@gmail.com)
+Machilipatnam, Andhra Pradesh · [LinkedIn](https://www.linkedin.com/in/anandpal-kondeti) · [GitHub](https://github.com/Anandpal-123) · [Email](mailto:anandpalkondeti@gmail.com)
 
 ---
 
@@ -23,7 +23,7 @@ Motivated and detail‑oriented Computer Science undergraduate focused on **fron
 Automates the generation of **QR codes for contact details** using Python (`qrcode`, `Pillow`) and **GitHub Actions**. Generates images for multiple contacts and uploads them as build artifacts.
 
 - Repo: https://github.com/Anandpal-123/qr-code-generator
-- Badge: ![QR Code Generator](https://github.com/Anandpal-123/qr-code-generator/actions/workflows/qr_code.yml/badge.svg)
+- Badge: ![QR Code Generator](https://github.com/Anandpal-123/qr-code-generator/actions/workflows/qr_generator.yml/badge.svg)
 
 ## 🎓 Experience & Certifications
 - **Python Programming Intern — BIST Technologies Pvt. Ltd.** (120 hours)
@@ -38,7 +38,7 @@ Automates the generation of **QR codes for contact details** using Python (`qrco
 ## 📫 Contact
 - 📧 anandpalkondeti@gmail.com
 - 📱 +91 83419 38769
-- 🔗 LinkedIn: https://linkedin.com/in/Anandpal
+- 🔗 LinkedIn: https://www.linkedin.com/in/anandpal-kondeti
 
 ---
 
